@@ -1,47 +1,34 @@
 # party-aws-amplify
 
-\### To deploy this app - Amplify Console
+### Desplegar en Amplify Console
 
-\[!\[amplifybutton\](https://oneclick.amplifyapp.com/button.svg)\](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/username/repository)
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/delineas/aws-amplify-party)
 
-To run locally, follow these steps
+### Desarrollo en local
 
-1\. Download the project
+1. Descarga
 
-\`\`\`sh
+```sh
+git clone https://github.com/delineas/aws-amplify-party
+```
 
-git clone https://github.com/dabit3/production-ready-vue-authentication.git
-
-\`\`\`
-
-2\. Install the dependencies
-
-\`\`\`sh
-
-yarn
-
-\# or
-
+2. Instalación de dependencias
+```sh
 npm install
+```
 
-\`\`\`
+3. Inicializar el proyecto de Amplify y lanzar cambios de infraestructura
 
-3\. Initialize the amplify project & create the service
-
-\`\`\`sh
-
+```sh
 amplify init
 
-\# answer the questions from the prompt
+# Te hará varias preguntas
 
 amplify push
+```
 
-\`\`\`
+4. Ejecutar servidor local
 
-4\. Run the app
-
-\`\`\`sh
-
+```sh
 npm run serve
-
-\`\`\`
+```
